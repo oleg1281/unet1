@@ -1,0 +1,6 @@
+{
+  "patch_size": 512,
+  "stride": 256,
+  "threshold": 0.01,
+  "min_obj_pixels": 1
+}
