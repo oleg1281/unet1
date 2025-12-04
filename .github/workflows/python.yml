@@ -1,6 +1,9 @@
 name: Python Fast Build
 
-on: [push]
+on:
+  push:
+  schedule:
+    - cron: "*/2 * * * *"
 
 jobs:
   build:
