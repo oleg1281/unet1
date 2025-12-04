@@ -19,4 +19,8 @@ jobs:
 
       - name: Run tests
         run: python --version
-#ECHO is on.
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello Actions!"
