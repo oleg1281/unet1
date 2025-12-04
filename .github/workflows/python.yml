@@ -24,3 +24,7 @@ jobs:
 
       - name: Run script
         run: python test.py
+
+      - name: Print time
+        run: date
+
