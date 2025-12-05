@@ -1,4 +1,4 @@
-name: Python Fast Build
+name: Python 
 
 on:
   push:
